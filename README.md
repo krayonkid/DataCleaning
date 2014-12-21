@@ -14,10 +14,13 @@ The goal of the run_analysis.R script is to prepare a tidy dataset.
 ###  Variables
 
 ###  Features and Activity Labels
-fpath :  Path to the features text file
+fpath:  Path to the features text file
 alpath:  Path to the activity_labels text file
+
 features:  Created from the features text file
+
 actLab:  Created from the activity_labels text file
+
 
 ###  Test Data
 test_subjects:  Path to the subject_test text file
