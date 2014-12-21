@@ -13,13 +13,13 @@ The goal of the run_analysis.R script is to prepare a tidy dataset.
 
 ###  Variables
 
-Features and Activity Labels
+###  Features and Activity Labels
 fpath :  Path to the features text file
 alpath:  Path to the activity_labels text file
 features:  Created from the features text file
 actLab:  Created from the activity_labels text file
 
-Test Data
+###  Test Data
 test_subjects:  Path to the subject_test text file
 test_x:   Path to the X_test text file
 test_y:  Path to the Y_test text file
@@ -28,7 +28,7 @@ xTest:  Created from X_test file
 yTest:  Created from Y_test file
 test:  Combine the all the separate files to create one data frame.  Added “Test” flag
 
-Train Data
+###  Train Data
 train_subjects:  Path to the subject_train text file
 train_x:   Path to the X_train text file
 train_y:  Path to the Y_train text file
@@ -39,16 +39,16 @@ train:  Combine the all the separate files to create one data frame.  Added “T
 
 TTData:  Combine test and train data
 
-Add column names
+###  Add column names
 trans:  Transpose features
 colNames:  Column names
 
-Extract columns
+###  Extract columns
 meanStd:  Extract Subject, Activity and columns that have mean and standard deviation calculations.  All columns that contain mean or std is captured.
 TTData2:  This data frame is a subset of TTData.  It only contains columns containing mean and standard deviation
 TTData3:  This data frame is TTData2, but includes the activity descriptions
 
-Tiding up data
+###  Tiding up data
 varNames:  Contains the ‘variable’ columns used in the melt function
 TTMelt:  Created by using the melt function on TTData3
 
